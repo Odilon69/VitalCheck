@@ -33,6 +33,21 @@ Foi adotado o padrão **MVVM (Model-View-ViewModel)**.
 - Dificulta manutenção em projetos maiores
 
 ---
+## 🏗 Arquitetura
+
+O projeto segue uma arquitetura baseada em:
+
+- UI (Compose)
+- ViewModel
+- Data Layer (DataStore)
+- Navigation Component
+
+Fluxo simplificado:
+
+EntradaScreen → salva sintoma → DataStore  
+ResumoScreen → exibe sintoma e data  
+Dashboard → mostra dados simulados
+
 
 ## 🧱 Camadas do Projeto
 
