@@ -120,7 +120,8 @@ Justificativa:
 
 1. Clonar o repositório:
 
-git clone https://github.com/seu-usuario/vitalcheck.git
+git clone https://github.com/Odilon69/VitalCheck.git
+
 
 2. Abrir no Android Studio
 
