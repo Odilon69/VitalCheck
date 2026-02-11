@@ -202,52 +202,77 @@ DataStore
 - Análise inteligente de sintomas
 
 ---
-## 🧠 Considerações Éticas sobre IA
 
-Este projeto considera princípios fundamentais de ética no desenvolvimento de Inteligência Artificial, especialmente em aplicações relacionadas à saúde.
+## 🧠 Pensamento Crítico: Ética da IA no Desenvolvimento de Software
 
-- Proteção de dados sensíveis (LGPD)
-- Transparência nas recomendações geradas por IA
-- Não substituição de diagnóstico médico
-- Mitigação de vieses algorítmicos
-- Segurança e governança dos dados
+O desenvolvimento de soluções que envolvem Inteligência Artificial exige responsabilidade técnica e social. A IA não deve ser tratada apenas como uma ferramenta tecnológica, mas como um sistema que impacta diretamente pessoas, decisões e comportamentos.
+
+### 1️⃣ Privacidade e Proteção de Dados
+
+Em qualquer sistema que lide com dados sensíveis — especialmente dados de saúde — a proteção da informação é prioridade.
+
+- Coletar apenas os dados estritamente necessários.
+- Armazenar informações localmente sempre que possível.
+- Garantir conformidade com legislações como a LGPD.
+- Evitar compartilhamento de dados sem consentimento explícito.
+- Aplicar boas práticas de segurança e criptografia quando necessário.
+
+A ética começa no respeito à privacidade do usuário.
+
 ---
 
+### 2️⃣ Transparência Algorítmica
 
-### 🔐 Privacidade e Proteção de Dados
+Usuários devem entender que estão interagindo com um sistema automatizado.
 
-- Armazenamento local utilizando DataStore
-- Não compartilhamento de dados sensíveis sem consentimento
-- Conformidade com LGPD (Lei Geral de Proteção de Dados)
-- Possibilidade futura de criptografia de dados
+- Explicar quando uma recomendação é gerada por IA.
+- Deixar claro que não se trata de diagnóstico médico.
+- Documentar limitações do modelo.
+- Evitar promessas exageradas sobre precisão.
 
-### 📊 Transparência Algorítmica
+Transparência gera confiança.
 
-Caso o projeto evolua para utilização de IA:
+---
 
-- As recomendações serão apresentadas como sugestões
-- O usuário será informado de que não se trata de diagnóstico médico
-- O funcionamento da IA deverá ser documentado
+### 3️⃣ Mitigação de Viés
 
-### 🏥 Não Substituição Médica
+Modelos de IA podem refletir preconceitos presentes nos dados de treinamento.
 
-Este aplicativo não substitui avaliação médica profissional.  
-As informações apresentadas são apenas para acompanhamento pessoal.
+Para reduzir esse risco:
 
-### ⚖ Mitigação de Viés
+- Utilizar dados diversos e representativos.
+- Testar o sistema com diferentes perfis de usuários.
+- Monitorar resultados inesperados.
+- Revisar continuamente o comportamento do modelo.
 
-Em caso de uso de modelos de IA:
+A ética exige vigilância constante contra discriminação algorítmica.
 
-- Utilização de dados diversos para treinamento
-- Validação com múltiplos perfis de usuários
-- Documentação de limitações do modelo
+---
 
-### 🔒 Segurança
+### 4️⃣ Responsabilidade e Limites
 
-- Sanitização de entradas
-- Proteção contra vazamento de dados
-- Não exposição de chaves de API
-- Armazenamento seguro de informações sensíveis
+A IA deve auxiliar, não substituir decisões humanas críticas.
+
+No contexto de saúde:
+
+- O sistema deve atuar como ferramenta de apoio.
+- Nunca substituir avaliação médica.
+- Incluir avisos claros quando necessário.
+
+A responsabilidade final deve permanecer com o ser humano.
+
+---
+
+### 5️⃣ Segurança e Robustez
+
+Sistemas inteligentes devem ser resilientes contra falhas e ataques.
+
+- Validação rigorosa de entradas.
+- Tratamento de exceções.
+- Proteção contra manipulação de dados.
+- Atualizações constantes de dependências.
+
+Segurança também é um compromisso ético.
 
 ### 🌍 Responsabilidade Social
 
@@ -258,6 +283,16 @@ O sistema deve:
 - Priorizar bem-estar do usuário
 
 ---
+
+---
+
+### 📌 Conclusão
+
+Desenvolver com IA significa assumir responsabilidade não apenas pelo código, mas pelo impacto social da solução.  
+A ética deve ser integrada desde o planejamento arquitetural até a implementação final.
+
+Tecnologia responsável é tecnologia sustentável.
+
 
 
 # 👨‍💻 Autor
